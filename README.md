@@ -12,10 +12,11 @@ Hekataios of Miletus was an early Greek historian and geographer who lived durin
 
 ## Features
 
-- **Interactive Map**: Built with Leaflet.js and MapLibre GL
-- **Historical Base Layer**: Uses OpenHistoricalMap vector tiles for historically-appropriate cartography
-- **Place Markers**: Shows locations mentioned in Hekataios's fragments
-- **Popups**: Click markers to see place names and descriptions
+- **Interactive Map**: Built with Leaflet.js
+- **Historical Base Layer**: Uses AWMC/CAWM raster tiles optimized for ancient world mapping
+- **Place Markers**: Shows 25+ locations mentioned across Hekataios's fragments
+- **Fragment Links**: Each popup links directly to the relevant Topostext fragments
+- **Rich Metadata**: View which fragments mention each place
 - **Responsive Design**: Works on desktop and mobile devices
 
 ## Project Structure
@@ -31,8 +32,8 @@ hekataiosfrags/
 
 ## Data Sources
 
-- **Topostext.org**: Ancient place gazetteer with coordinates
-- **OpenHistoricalMap**: Community-built historical map data
+- **Topostext.org**: Ancient place gazetteer with coordinates and fragment texts
+- **AWMC/CAWM Tiles**: Ancient World Mapping Center base map tiles hosted by the University of Iowa
 
 ## Running Locally
 
@@ -78,36 +79,39 @@ The repository includes sample data. To fetch complete data from Topostext:
 ### Map Technology
 
 - **Leaflet 1.9.4**: JavaScript mapping library
-- **MapLibre GL 3.6.2**: Vector tile rendering engine
-- **OpenHistoricalMap**: Historical base layer (vector tiles)
+- **AWMC/CAWM Tiles**: Raster XYZ tiles optimized for ancient geography
+  - URL: `https://cawm.lib.uiowa.edu/tiles/{z}/{x}/{y}.png`
+  - Hosted by University of Iowa Digital Scholarship and Publishing Studio
+  - CC BY 4.0 License
 
-### Why Vector Tiles?
+### Why CAWM Tiles?
 
-OpenHistoricalMap has moved from raster tiles (XYZ) to vector tiles. Vector tiles offer:
-- Better performance
-- Sharper rendering on high-DPI displays
-- Dynamic styling capabilities
-- Smaller file sizes
+The Ancient World Mapping Center (AWMC) tiles are specifically designed for mapping ancient places:
+- Cartography optimized for classical geography
+- Labels and features appropriate for the ancient world
+- No anachronistic modern features
+- Professional scholarly resource
 
 ### Important Considerations
 
-As noted by the Gemini guidance:
+1. **Coordinate Precision**: Ancient places are mapped to modern coordinates based on archaeological sites. This implies precision that the original texts don't support. The AWMC tiles use fuzzy markers and uncertainty indicators where appropriate.
 
-1. **Coordinate Precision**: Ancient places are mapped to modern coordinates based on archaeological sites. This implies precision that the original texts don't support.
+2. **Fragment Preservation**: Only fragments of Hekataios's work survive through later citations. The places shown represent those mentioned in surviving fragments, not the complete original text.
 
-2. **Temporal Mismatch**: OHM shows historical data from various periods. The default view may not accurately represent the world as Hekataios knew it (~500 BCE).
+3. **Narrative Topology**: Hekataios's *Periodos Ges* describes places *in sequence* as a circuit around the Mediterranean. Simply plotting them as points loses the narrative order along coastlines.
 
-3. **Narrative Topology**: Hekataios's *Periodos Ges* describes places *in sequence* as a circuit. Simply plotting them as points loses the narrative order along coastlines.
+4. **Scholarly Uncertainty**: Some place identifications in Topostext are more certain than others. The map shows the scholarly consensus but should not be taken as definitive.
 
 ## Future Enhancements
 
 - [ ] Extract places in their original sequence from fragments
-- [ ] Add route lines showing the "circuit" narrative
-- [ ] Filter OHM to show only features contemporary with Hekataios (~500 BCE)
+- [ ] Add route lines showing the "circuit" narrative structure of *Periodos Ges*
 - [ ] Add fragment text excerpts to popups
-- [ ] Distinguish between certain and uncertain locations
-- [ ] Add timeline visualization
-- [ ] Support for multiple ancient authors
+- [ ] Distinguish between certain and uncertain locations (confidence levels)
+- [ ] Add timeline visualization showing Hekataios in context
+- [ ] Support for multiple ancient authors (Herodotus, Strabo, etc.)
+- [ ] Scrape live data from Topostext (currently using curated dataset)
+- [ ] Add search/filter functionality for places and fragments
 
 ## Contributing
 
@@ -127,16 +131,18 @@ This project is released under the MIT License. See LICENSE file for details.
 
 ## Acknowledgments
 
-- **Topostext.org**: For their comprehensive ancient place gazetteer
-- **OpenHistoricalMap**: For historical cartographic data
+- **Topostext.org**: For their comprehensive ancient place gazetteer and fragment database
+- **Ancient World Mapping Center (AWMC)**: For the historical base map tiles
+- **University of Iowa Libraries**: For hosting the CAWM tile server
 - **Gemini AI**: For the technical guidance that formed the basis of this implementation
 
 ## References
 
 - Topostext Hekataios page: https://topostext.org/people/13921
-- OpenHistoricalMap: https://www.openhistoricalmap.org/
+- AWMC/CAWM Tiles: https://cawm.lib.uiowa.edu/
+- Ancient World Mapping Center: https://awmc.unc.edu/
 - Leaflet documentation: https://leafletjs.com/
-- MapLibre GL: https://maplibre.org/
+- Digital Classicist Wiki (AWMC Tiles): https://wiki.digitalclassicist.org/AWMC_Map_Tiles
 
 ## Contact
 
