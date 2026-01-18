@@ -5,11 +5,12 @@
       "type": "Feature",
       "properties": {
         "name": "Miletus",
+        "place_type": "city",
         "topostext_id": "382216PMile",
         "place_url": "https://topostext.org/place/382216PMile",
         "fragment_count": 1,
         "fragments": ["https://topostext.org/work/129#1"],
-        "popupContent": "<b>Miletus</b><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/129#1' target='_blank'>Hecataeus, F 1 (Genealogies)</a><br><br><a href='https://topostext.org/place/382216PMile' target='_blank'>View place on Topostext</a>"
+        "popupContent": "<b>Miletus</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/129#1' target='_blank'>Hecataeus, F 1 (Genealogies)</a><br><br><a href='https://topostext.org/place/382216PMile' target='_blank'>View place on Topostext</a>"
       },
       "geometry": {
         "type": "Point",
@@ -20,11 +21,12 @@
       "type": "Feature",
       "properties": {
         "name": "Egypt",
+        "place_type": "region",
         "topostext_id": "292923REgyp",
         "place_url": "https://topostext.org/place/292923REgyp",
         "fragment_count": 2,
         "fragments": ["https://topostext.org/work/130#F9", "https://topostext.org/work/130#F27"],
-        "popupContent": "<b>Egypt</b><br><br>Mentioned in 2 fragment(s):<br><a href='https://topostext.org/work/130#F9' target='_blank'>Hecataeus, F 9 (Periegesis)</a><br><a href='https://topostext.org/work/130#F27' target='_blank'>Hecataeus, F 27 (Periegesis)</a><br><br><a href='https://topostext.org/place/292923REgyp' target='_blank'>View place on Topostext</a>"
+        "popupContent": "<b>Egypt</b> <em>(region)</em><br><br>Mentioned in 2 fragment(s):<br><a href='https://topostext.org/work/130#F9' target='_blank'>Hecataeus, F 9 (Periegesis)</a><br><a href='https://topostext.org/work/130#F27' target='_blank'>Hecataeus, F 27 (Periegesis)</a><br><br><a href='https://topostext.org/place/292923REgyp' target='_blank'>View place on Topostext</a>"
       },
       "geometry": {
         "type": "Point",
@@ -35,11 +37,12 @@
       "type": "Feature",
       "properties": {
         "name": "Scythia",
+        "place_type": "region",
         "topostext_id": "475030RScyt",
         "place_url": "https://topostext.org/place/475030RScyt",
         "fragment_count": 1,
         "fragments": ["https://topostext.org/work/130#F154"],
-        "popupContent": "<b>Scythia</b><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F154' target='_blank'>Hecataeus, F 154 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/475030RScyt' target='_blank'>View place on Topostext</a>"
+        "popupContent": "<b>Scythia</b> <em>(region)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F154' target='_blank'>Hecataeus, F 154 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/475030RScyt' target='_blank'>View place on Topostext</a>"
       },
       "geometry": {
         "type": "Point",
@@ -50,11 +53,12 @@
       "type": "Feature",
       "properties": {
         "name": "Babylon",
+        "place_type": "city",
         "topostext_id": "444132PBaby",
         "place_url": "https://topostext.org/place/444132PBaby",
         "fragment_count": 1,
         "fragments": ["https://topostext.org/work/130#F178"],
-        "popupContent": "<b>Babylon</b><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F178' target='_blank'>Hecataeus, F 178 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/444132PBaby' target='_blank'>View place on Topostext</a>"
+        "popupContent": "<b>Babylon</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F178' target='_blank'>Hecataeus, F 178 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/444132PBaby' target='_blank'>View place on Topostext</a>"
       },
       "geometry": {
         "type": "Point",
@@ -65,11 +69,12 @@
       "type": "Feature",
       "properties": {
         "name": "Hellespont",
+        "place_type": "strait",
         "topostext_id": "402640WHell",
         "place_url": "https://topostext.org/place/402640WHell",
         "fragment_count": 1,
         "fragments": ["https://topostext.org/work/130#F145"],
-        "popupContent": "<b>Hellespont</b><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F145' target='_blank'>Hecataeus, F 145 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/402640WHell' target='_blank'>View place on Topostext</a>"
+        "popupContent": "<b>Hellespont</b> <em>(strait)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F145' target='_blank'>Hecataeus, F 145 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/402640WHell' target='_blank'>View place on Topostext</a>"
       },
       "geometry": {
         "type": "Point",
@@ -80,11 +85,12 @@
       "type": "Feature",
       "properties": {
         "name": "Phasis River",
+        "place_type": "river",
         "topostext_id": "418042RPhas",
         "place_url": "https://topostext.org/place/418042RPhas",
         "fragment_count": 1,
         "fragments": ["https://topostext.org/work/130#F162"],
-        "popupContent": "<b>Phasis River</b><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F162' target='_blank'>Hecataeus, F 162 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/418042RPhas' target='_blank'>View place on Topostext</a>"
+        "popupContent": "<b>Phasis River</b> <em>(river)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F162' target='_blank'>Hecataeus, F 162 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/418042RPhas' target='_blank'>View place on Topostext</a>"
       },
       "geometry": {
         "type": "Point",
@@ -95,11 +101,12 @@
       "type": "Feature",
       "properties": {
         "name": "Tartessus",
+        "place_type": "city",
         "topostext_id": "-63736PTart",
         "place_url": "https://topostext.org/place/-63736PTart",
         "fragment_count": 1,
         "fragments": ["https://topostext.org/work/130#F52"],
-        "popupContent": "<b>Tartessus</b><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F52' target='_blank'>Hecataeus, F 52 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/-63736PTart' target='_blank'>View place on Topostext</a>"
+        "popupContent": "<b>Tartessus</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F52' target='_blank'>Hecataeus, F 52 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/-63736PTart' target='_blank'>View place on Topostext</a>"
       },
       "geometry": {
         "type": "Point",
@@ -110,11 +117,12 @@
       "type": "Feature",
       "properties": {
         "name": "Massalia",
+        "place_type": "city",
         "topostext_id": "543343PMass",
         "place_url": "https://topostext.org/place/543343PMass",
         "fragment_count": 1,
         "fragments": ["https://topostext.org/work/130#F56"],
-        "popupContent": "<b>Massalia</b><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F56' target='_blank'>Hecataeus, F 56 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/543343PMass' target='_blank'>View place on Topostext</a>"
+        "popupContent": "<b>Massalia</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F56' target='_blank'>Hecataeus, F 56 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/543343PMass' target='_blank'>View place on Topostext</a>"
       },
       "geometry": {
         "type": "Point",
@@ -125,11 +133,12 @@
       "type": "Feature",
       "properties": {
         "name": "Sardis",
+        "place_type": "city",
         "topostext_id": "280438PSard",
         "place_url": "https://topostext.org/place/280438PSard",
         "fragment_count": 1,
         "fragments": ["https://topostext.org/work/130#F221"],
-        "popupContent": "<b>Sardis</b><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F221' target='_blank'>Hecataeus, F 221 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/280438PSard' target='_blank'>View place on Topostext</a>"
+        "popupContent": "<b>Sardis</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F221' target='_blank'>Hecataeus, F 221 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/280438PSard' target='_blank'>View place on Topostext</a>"
       },
       "geometry": {
         "type": "Point",
@@ -140,11 +149,12 @@
       "type": "Feature",
       "properties": {
         "name": "Athens",
+        "place_type": "city",
         "topostext_id": "237238PAthe",
         "place_url": "https://topostext.org/place/237238PAthe",
         "fragment_count": 1,
         "fragments": ["https://topostext.org/work/130#F127"],
-        "popupContent": "<b>Athens</b><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F127' target='_blank'>Hecataeus, F 127 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/237238PAthe' target='_blank'>View place on Topostext</a>"
+        "popupContent": "<b>Athens</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F127' target='_blank'>Hecataeus, F 127 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/237238PAthe' target='_blank'>View place on Topostext</a>"
       },
       "geometry": {
         "type": "Point",
@@ -155,11 +165,12 @@
       "type": "Feature",
       "properties": {
         "name": "Sparta",
+        "place_type": "city",
         "topostext_id": "222237PSpar",
         "place_url": "https://topostext.org/place/222237PSpar",
         "fragment_count": 1,
         "fragments": ["https://topostext.org/work/130#F130"],
-        "popupContent": "<b>Sparta</b><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F130' target='_blank'>Hecataeus, F 130 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/222237PSpar' target='_blank'>View place on Topostext</a>"
+        "popupContent": "<b>Sparta</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F130' target='_blank'>Hecataeus, F 130 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/222237PSpar' target='_blank'>View place on Topostext</a>"
       },
       "geometry": {
         "type": "Point",
@@ -170,11 +181,12 @@
       "type": "Feature",
       "properties": {
         "name": "Ephesus",
+        "place_type": "city",
         "topostext_id": "273738PEphe",
         "place_url": "https://topostext.org/place/273738PEphe",
         "fragment_count": 1,
         "fragments": ["https://topostext.org/work/130#F225"],
-        "popupContent": "<b>Ephesus</b><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F225' target='_blank'>Hecataeus, F 225 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/273738PEphe' target='_blank'>View place on Topostext</a>"
+        "popupContent": "<b>Ephesus</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F225' target='_blank'>Hecataeus, F 225 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/273738PEphe' target='_blank'>View place on Topostext</a>"
       },
       "geometry": {
         "type": "Point",
@@ -185,11 +197,12 @@
       "type": "Feature",
       "properties": {
         "name": "Samos",
+        "place_type": "island",
         "topostext_id": "269837PSamo",
         "place_url": "https://topostext.org/place/269837PSamo",
         "fragment_count": 1,
         "fragments": ["https://topostext.org/work/130#F223"],
-        "popupContent": "<b>Samos</b><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F223' target='_blank'>Hecataeus, F 223 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/269837PSamo' target='_blank'>View place on Topostext</a>"
+        "popupContent": "<b>Samos</b> <em>(island)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F223' target='_blank'>Hecataeus, F 223 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/269837PSamo' target='_blank'>View place on Topostext</a>"
       },
       "geometry": {
         "type": "Point",
@@ -200,11 +213,12 @@
       "type": "Feature",
       "properties": {
         "name": "Byzantium",
+        "place_type": "city",
         "topostext_id": "289741PByza",
         "place_url": "https://topostext.org/place/289741PByza",
         "fragment_count": 1,
         "fragments": ["https://topostext.org/work/130#F144"],
-        "popupContent": "<b>Byzantium</b><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F144' target='_blank'>Hecataeus, F 144 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/289741PByza' target='_blank'>View place on Topostext</a>"
+        "popupContent": "<b>Byzantium</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F144' target='_blank'>Hecataeus, F 144 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/289741PByza' target='_blank'>View place on Topostext</a>"
       },
       "geometry": {
         "type": "Point",
@@ -215,11 +229,12 @@
       "type": "Feature",
       "properties": {
         "name": "Troy",
+        "place_type": "city",
         "topostext_id": "262640PTroy",
         "place_url": "https://topostext.org/place/262640PTroy",
         "fragment_count": 1,
         "fragments": ["https://topostext.org/work/130#F148"],
-        "popupContent": "<b>Troy</b><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F148' target='_blank'>Hecataeus, F 148 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/262640PTroy' target='_blank'>View place on Topostext</a>"
+        "popupContent": "<b>Troy</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F148' target='_blank'>Hecataeus, F 148 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/262640PTroy' target='_blank'>View place on Topostext</a>"
       },
       "geometry": {
         "type": "Point",
@@ -230,11 +245,12 @@
       "type": "Feature",
       "properties": {
         "name": "Colchis",
+        "place_type": "region",
         "topostext_id": "418042RColc",
         "place_url": "https://topostext.org/place/418042RColc",
         "fragment_count": 1,
         "fragments": ["https://topostext.org/work/130#F162"],
-        "popupContent": "<b>Colchis</b><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F162' target='_blank'>Hecataeus, F 162 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/418042RColc' target='_blank'>View place on Topostext</a>"
+        "popupContent": "<b>Colchis</b> <em>(region)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F162' target='_blank'>Hecataeus, F 162 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/418042RColc' target='_blank'>View place on Topostext</a>"
       },
       "geometry": {
         "type": "Point",
@@ -245,11 +261,12 @@
       "type": "Feature",
       "properties": {
         "name": "Nile River",
+        "place_type": "river",
         "topostext_id": "323027RNile",
         "place_url": "https://topostext.org/place/323027RNile",
         "fragment_count": 1,
         "fragments": ["https://topostext.org/work/130#F307"],
-        "popupContent": "<b>Nile River</b><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F307' target='_blank'>Hecataeus, F 307 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/323027RNile' target='_blank'>View place on Topostext</a>"
+        "popupContent": "<b>Nile River</b> <em>(river)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F307' target='_blank'>Hecataeus, F 307 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/323027RNile' target='_blank'>View place on Topostext</a>"
       },
       "geometry": {
         "type": "Point",
@@ -260,11 +277,12 @@
       "type": "Feature",
       "properties": {
         "name": "Crete",
+        "place_type": "island",
         "topostext_id": "253235LCret",
         "place_url": "https://topostext.org/place/253235LCret",
         "fragment_count": 1,
         "fragments": ["https://topostext.org/work/130#F140"],
-        "popupContent": "<b>Crete</b><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F140' target='_blank'>Hecataeus, F 140 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/253235LCret' target='_blank'>View place on Topostext</a>"
+        "popupContent": "<b>Crete</b> <em>(island)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F140' target='_blank'>Hecataeus, F 140 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/253235LCret' target='_blank'>View place on Topostext</a>"
       },
       "geometry": {
         "type": "Point",
@@ -275,11 +293,12 @@
       "type": "Feature",
       "properties": {
         "name": "Sicily",
+        "place_type": "island",
         "topostext_id": "143737LSici",
         "place_url": "https://topostext.org/place/143737LSici",
         "fragment_count": 1,
         "fragments": ["https://topostext.org/work/130#F73"],
-        "popupContent": "<b>Sicily</b><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F73' target='_blank'>Hecataeus, F 73 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/143737LSici' target='_blank'>View place on Topostext</a>"
+        "popupContent": "<b>Sicily</b> <em>(island)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F73' target='_blank'>Hecataeus, F 73 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/143737LSici' target='_blank'>View place on Topostext</a>"
       },
       "geometry": {
         "type": "Point",
@@ -290,11 +309,12 @@
       "type": "Feature",
       "properties": {
         "name": "Thrace",
+        "place_type": "region",
         "topostext_id": "264141RThra",
         "place_url": "https://topostext.org/place/264141RThra",
         "fragment_count": 1,
         "fragments": ["https://topostext.org/work/130#F151"],
-        "popupContent": "<b>Thrace</b><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F151' target='_blank'>Hecataeus, F 151 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/264141RThra' target='_blank'>View place on Topostext</a>"
+        "popupContent": "<b>Thrace</b> <em>(region)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F151' target='_blank'>Hecataeus, F 151 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/264141RThra' target='_blank'>View place on Topostext</a>"
       },
       "geometry": {
         "type": "Point",
@@ -305,11 +325,12 @@
       "type": "Feature",
       "properties": {
         "name": "India",
+        "place_type": "region",
         "topostext_id": "752520RIndi",
         "place_url": "https://topostext.org/place/752520RIndi",
         "fragment_count": 1,
         "fragments": ["https://topostext.org/work/130#F298"],
-        "popupContent": "<b>India</b><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F298' target='_blank'>Hecataeus, F 298 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/752520RIndi' target='_blank'>View place on Topostext</a>"
+        "popupContent": "<b>India</b> <em>(region)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F298' target='_blank'>Hecataeus, F 298 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/752520RIndi' target='_blank'>View place on Topostext</a>"
       },
       "geometry": {
         "type": "Point",
@@ -320,11 +341,12 @@
       "type": "Feature",
       "properties": {
         "name": "Pontus Euxinus",
+        "place_type": "sea",
         "topostext_id": "334544WPont",
         "place_url": "https://topostext.org/place/334544WPont",
         "fragment_count": 1,
         "fragments": ["https://topostext.org/work/130#F165"],
-        "popupContent": "<b>Pontus Euxinus</b><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F165' target='_blank'>Hecataeus, F 165 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/334544WPont' target='_blank'>View place on Topostext</a>"
+        "popupContent": "<b>Pontus Euxinus</b> <em>(sea)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F165' target='_blank'>Hecataeus, F 165 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/334544WPont' target='_blank'>View place on Topostext</a>"
       },
       "geometry": {
         "type": "Point",
@@ -335,11 +357,12 @@
       "type": "Feature",
       "properties": {
         "name": "Cyrene",
+        "place_type": "city",
         "topostext_id": "218532PCyre",
         "place_url": "https://topostext.org/place/218532PCyre",
         "fragment_count": 1,
         "fragments": ["https://topostext.org/work/130#F334"],
-        "popupContent": "<b>Cyrene</b><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F334' target='_blank'>Hecataeus, F 334 (Periegesis, Africa)</a><br><br><a href='https://topostext.org/place/218532PCyre' target='_blank'>View place on Topostext</a>"
+        "popupContent": "<b>Cyrene</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F334' target='_blank'>Hecataeus, F 334 (Periegesis, Africa)</a><br><br><a href='https://topostext.org/place/218532PCyre' target='_blank'>View place on Topostext</a>"
       },
       "geometry": {
         "type": "Point",
@@ -350,11 +373,12 @@
       "type": "Feature",
       "properties": {
         "name": "Istros River",
+        "place_type": "river",
         "topostext_id": "294545RIstr",
         "place_url": "https://topostext.org/place/294545RIstr",
         "fragment_count": 1,
         "fragments": ["https://topostext.org/work/130#F91"],
-        "popupContent": "<b>Istros River</b><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F91' target='_blank'>Hecataeus, F 91 (Periegesis, Europe - Danube)</a><br><br><a href='https://topostext.org/place/294545RIstr' target='_blank'>View place on Topostext</a>"
+        "popupContent": "<b>Istros River</b> <em>(river)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F91' target='_blank'>Hecataeus, F 91 (Periegesis, Europe - Danube)</a><br><br><a href='https://topostext.org/place/294545RIstr' target='_blank'>View place on Topostext</a>"
       },
       "geometry": {
         "type": "Point",
@@ -365,15 +389,752 @@
       "type": "Feature",
       "properties": {
         "name": "Iberia",
+        "place_type": "region",
         "topostext_id": "-44040RIber",
         "place_url": "https://topostext.org/place/-44040RIber",
         "fragment_count": 1,
         "fragments": ["https://topostext.org/work/130#F51"],
-        "popupContent": "<b>Iberia</b><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F51' target='_blank'>Hecataeus, F 51 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/-44040RIber' target='_blank'>View place on Topostext</a>"
+        "popupContent": "<b>Iberia</b> <em>(region)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F51' target='_blank'>Hecataeus, F 51 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/-44040RIber' target='_blank'>View place on Topostext</a>"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [-4.0, 40.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lydia",
+        "place_type": "region",
+        "topostext_id": "283838RLydi",
+        "place_url": "https://topostext.org/place/283838RLydi",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F221"],
+        "popupContent": "<b>Lydia</b> <em>(region)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F221' target='_blank'>Hecataeus, F 221 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/283838RLydi' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.3, 38.4]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Caria",
+        "place_type": "region",
+        "topostext_id": "273737RCari",
+        "place_url": "https://topostext.org/place/273737RCari",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F234"],
+        "popupContent": "<b>Caria</b> <em>(region)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F234' target='_blank'>Hecataeus, F 234 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/273737RCari' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.8, 37.3]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ionia",
+        "place_type": "region",
+        "topostext_id": "273738RIoni",
+        "place_url": "https://topostext.org/place/273738RIoni",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F224"],
+        "popupContent": "<b>Ionia</b> <em>(region)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F224' target='_blank'>Hecataeus, F 224 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/273738RIoni' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.4, 37.9]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phrygia",
+        "place_type": "region",
+        "topostext_id": "303039RPhry",
+        "place_url": "https://topostext.org/place/303039RPhry",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F197"],
+        "popupContent": "<b>Phrygia</b> <em>(region)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F197' target='_blank'>Hecataeus, F 197 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/303039RPhry' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.0, 39.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Libya",
+        "place_type": "region",
+        "topostext_id": "173230RLiby",
+        "place_url": "https://topostext.org/place/173230RLiby",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F328"],
+        "popupContent": "<b>Libya</b> <em>(region)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F328' target='_blank'>Hecataeus, F 328 (Periegesis, Africa)</a><br><br><a href='https://topostext.org/place/173230RLiby' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.0, 30.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ethiopia",
+        "place_type": "region",
+        "topostext_id": "381512REthi",
+        "place_url": "https://topostext.org/place/381512REthi",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F310"],
+        "popupContent": "<b>Ethiopia</b> <em>(region)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F310' target='_blank'>Hecataeus, F 310 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/381512REthi' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38.0, 12.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Corinth",
+        "place_type": "city",
+        "topostext_id": "229238PCori",
+        "place_url": "https://topostext.org/place/229238PCori",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F126"],
+        "popupContent": "<b>Corinth</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F126' target='_blank'>Hecataeus, F 126 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/229238PCori' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.9, 37.9]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Thebes",
+        "place_type": "city",
+        "topostext_id": "232038PTheb",
+        "place_url": "https://topostext.org/place/232038PTheb",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F119"],
+        "popupContent": "<b>Thebes</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F119' target='_blank'>Hecataeus, F 119 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/232038PTheb' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.3, 38.3]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Delphi",
+        "place_type": "city",
+        "topostext_id": "225038PDelp",
+        "place_url": "https://topostext.org/place/225038PDelp",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F111"],
+        "popupContent": "<b>Delphi</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F111' target='_blank'>Hecataeus, F 111 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/225038PDelp' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.5, 38.48]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Argos",
+        "place_type": "city",
+        "topostext_id": "227237PArgo",
+        "place_url": "https://topostext.org/place/227237PArgo",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F129"],
+        "popupContent": "<b>Argos</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F129' target='_blank'>Hecataeus, F 129 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/227237PArgo' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.73, 37.63]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Olympia",
+        "place_type": "sanctuary",
+        "topostext_id": "216337POlym",
+        "place_url": "https://topostext.org/place/216337POlym",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F133"],
+        "popupContent": "<b>Olympia</b> <em>(sanctuary)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F133' target='_blank'>Hecataeus, F 133 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/216337POlym' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.63, 37.64]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Syracuse",
+        "place_type": "city",
+        "topostext_id": "150937PSymr",
+        "place_url": "https://topostext.org/place/150937PSymr",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F74"],
+        "popupContent": "<b>Syracuse</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F74' target='_blank'>Hecataeus, F 74 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/150937PSymr' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.29, 37.08]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cumae",
+        "place_type": "city",
+        "topostext_id": "140840PCuma",
+        "place_url": "https://topostext.org/place/140840PCuma",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F81"],
+        "popupContent": "<b>Cumae</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F81' target='_blank'>Hecataeus, F 81 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/140840PCuma' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.05, 40.85]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rome",
+        "place_type": "city",
+        "topostext_id": "124641PRome",
+        "place_url": "https://topostext.org/place/124641PRome",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F83"],
+        "popupContent": "<b>Rome</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F83' target='_blank'>Hecataeus, F 83 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/124641PRome' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.49, 41.89]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Carthage",
+        "place_type": "city",
+        "topostext_id": "103636PCart",
+        "place_url": "https://topostext.org/place/103636PCart",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F335"],
+        "popupContent": "<b>Carthage</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F335' target='_blank'>Hecataeus, F 335 (Periegesis, Africa)</a><br><br><a href='https://topostext.org/place/103636PCart' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.32, 36.85]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Memphis",
+        "place_type": "city",
+        "topostext_id": "313029PMemp",
+        "place_url": "https://topostext.org/place/313029PMemp",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F305"],
+        "popupContent": "<b>Memphis</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F305' target='_blank'>Hecataeus, F 305 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/313029PMemp' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.25, 29.85]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Naucratis",
+        "place_type": "city",
+        "topostext_id": "305830PNauc",
+        "place_url": "https://topostext.org/place/305830PNauc",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F304"],
+        "popupContent": "<b>Naucratis</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F304' target='_blank'>Hecataeus, F 304 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/305830PNauc' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.6, 30.9]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sidon",
+        "place_type": "city",
+        "topostext_id": "353333PSido",
+        "place_url": "https://topostext.org/place/353333PSido",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F279"],
+        "popupContent": "<b>Sidon</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F279' target='_blank'>Hecataeus, F 279 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/353333PSido' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.37, 33.56]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tyre",
+        "place_type": "city",
+        "topostext_id": "353233PTyre",
+        "place_url": "https://topostext.org/place/353233PTyre",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F280"],
+        "popupContent": "<b>Tyre</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F280' target='_blank'>Hecataeus, F 280 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/353233PTyre' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.19, 33.27]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Damascus",
+        "place_type": "city",
+        "topostext_id": "363333PDama",
+        "place_url": "https://topostext.org/place/363333PDama",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F288"],
+        "popupContent": "<b>Damascus</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F288' target='_blank'>Hecataeus, F 288 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/363333PDama' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [36.29, 33.51]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nineveh",
+        "place_type": "city",
+        "topostext_id": "433636PNine",
+        "place_url": "https://topostext.org/place/433636PNine",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F179"],
+        "popupContent": "<b>Nineveh</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F179' target='_blank'>Hecataeus, F 179 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/433636PNine' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [43.15, 36.36]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Susa",
+        "place_type": "city",
+        "topostext_id": "483532PSusa",
+        "place_url": "https://topostext.org/place/483532PSusa",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F176"],
+        "popupContent": "<b>Susa</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F176' target='_blank'>Hecataeus, F 176 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/483532PSusa' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.26, 32.19]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Persepolis",
+        "place_type": "city",
+        "topostext_id": "522929PPers",
+        "place_url": "https://topostext.org/place/522929PPers",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F177"],
+        "popupContent": "<b>Persepolis</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F177' target='_blank'>Hecataeus, F 177 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/522929PPers' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.89, 29.93]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Persia",
+        "place_type": "region",
+        "topostext_id": "513030RPers",
+        "place_url": "https://topostext.org/place/513030RPers",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F176"],
+        "popupContent": "<b>Persia</b> <em>(region)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F176' target='_blank'>Hecataeus, F 176 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/513030RPers' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.0, 30.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Media",
+        "place_type": "region",
+        "topostext_id": "483636RMedi",
+        "place_url": "https://topostext.org/place/483636RMedi",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F180"],
+        "popupContent": "<b>Media</b> <em>(region)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F180' target='_blank'>Hecataeus, F 180 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/483636RMedi' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.0, 36.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Armenia",
+        "place_type": "region",
+        "topostext_id": "434039RArme",
+        "place_url": "https://topostext.org/place/434039RArme",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F184"],
+        "popupContent": "<b>Armenia</b> <em>(region)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F184' target='_blank'>Hecataeus, F 184 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/434039RArme' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [43.0, 39.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cappadocia",
+        "place_type": "region",
+        "topostext_id": "343838RCapp",
+        "place_url": "https://topostext.org/place/343838RCapp",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F200"],
+        "popupContent": "<b>Cappadocia</b> <em>(region)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F200' target='_blank'>Hecataeus, F 200 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/343838RCapp' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.7, 38.7]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cilicia",
+        "place_type": "region",
+        "topostext_id": "343636RCili",
+        "place_url": "https://topostext.org/place/343636RCili",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F276"],
+        "popupContent": "<b>Cilicia</b> <em>(region)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F276' target='_blank'>Hecataeus, F 276 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/343636RCili' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.9, 36.9]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phoenicia",
+        "place_type": "region",
+        "topostext_id": "353433RPhoe",
+        "place_url": "https://topostext.org/place/353433RPhoe",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F278"],
+        "popupContent": "<b>Phoenicia</b> <em>(region)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F278' target='_blank'>Hecataeus, F 278 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/353433RPhoe' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.5, 33.8]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arabia",
+        "place_type": "region",
+        "topostext_id": "422525RArab",
+        "place_url": "https://topostext.org/place/422525RArab",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F292"],
+        "popupContent": "<b>Arabia</b> <em>(region)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F292' target='_blank'>Hecataeus, F 292 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/422525RArab' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [42.0, 25.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bactria",
+        "place_type": "region",
+        "topostext_id": "683636RBact",
+        "place_url": "https://topostext.org/place/683636RBact",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F295"],
+        "popupContent": "<b>Bactria</b> <em>(region)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F295' target='_blank'>Hecataeus, F 295 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/683636RBact' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [68.0, 36.75]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gadeira",
+        "place_type": "city",
+        "topostext_id": "-63636PGade",
+        "place_url": "https://topostext.org/place/-63636PGade",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F50"],
+        "popupContent": "<b>Gadeira</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F50' target='_blank'>Hecataeus, F 50 (Periegesis, Europe - Cadiz)</a><br><br><a href='https://topostext.org/place/-63636PGade' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.29, 36.53]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Olbia",
+        "place_type": "city",
+        "topostext_id": "324646POlbi",
+        "place_url": "https://topostext.org/place/324646POlbi",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F166"],
+        "popupContent": "<b>Olbia</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F166' target='_blank'>Hecataeus, F 166 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/324646POlbi' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.0, 46.68]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sinope",
+        "place_type": "city",
+        "topostext_id": "350942PSino",
+        "place_url": "https://topostext.org/place/350942PSino",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F203"],
+        "popupContent": "<b>Sinope</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F203' target='_blank'>Hecataeus, F 203 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/350942PSino' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.15, 42.03]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Trapezus",
+        "place_type": "city",
+        "topostext_id": "399140PTrap",
+        "place_url": "https://topostext.org/place/399140PTrap",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F204"],
+        "popupContent": "<b>Trapezus</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F204' target='_blank'>Hecataeus, F 204 (Periegesis, Asia - Trebizond)</a><br><br><a href='https://topostext.org/place/399140PTrap' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.73, 41.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Abdera",
+        "place_type": "city",
+        "topostext_id": "249040PAbde",
+        "place_url": "https://topostext.org/place/249040PAbde",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F147"],
+        "popupContent": "<b>Abdera</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F147' target='_blank'>Hecataeus, F 147 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/249040PAbde' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.98, 40.94]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pella",
+        "place_type": "city",
+        "topostext_id": "224040PPell",
+        "place_url": "https://topostext.org/place/224040PPell",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F143"],
+        "popupContent": "<b>Pella</b> <em>(city)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F143' target='_blank'>Hecataeus, F 143 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/224040PPell' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.52, 40.76]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Macedon",
+        "place_type": "region",
+        "topostext_id": "223940RMace",
+        "place_url": "https://topostext.org/place/223940RMace",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F142"],
+        "popupContent": "<b>Macedon</b> <em>(region)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F142' target='_blank'>Hecataeus, F 142 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/223940RMace' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.7, 40.5]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Illyria",
+        "place_type": "region",
+        "topostext_id": "193941RIlly",
+        "place_url": "https://topostext.org/place/193941RIlly",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F103"],
+        "popupContent": "<b>Illyria</b> <em>(region)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F103' target='_blank'>Hecataeus, F 103 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/193941RIlly' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.5, 41.3]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gaul",
+        "place_type": "region",
+        "topostext_id": "244647RGaul",
+        "place_url": "https://topostext.org/place/244647RGaul",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F57"],
+        "popupContent": "<b>Gaul</b> <em>(region)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F57' target='_blank'>Hecataeus, F 57 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/244647RGaul' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.5, 46.5]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Germania",
+        "place_type": "region",
+        "topostext_id": "105152RGerm",
+        "place_url": "https://topostext.org/place/105152RGerm",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F106"],
+        "popupContent": "<b>Germania</b> <em>(region)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F106' target='_blank'>Hecataeus, F 106 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/105152RGerm' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0, 51.5]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hyperborea",
+        "place_type": "region",
+        "topostext_id": "306070RHype",
+        "place_url": "https://topostext.org/place/306070RHype",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F108"],
+        "popupContent": "<b>Hyperborea</b> <em>(region - mythical)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F108' target='_blank'>Hecataeus, F 108 (Periegesis, Europe)</a><br><br><a href='https://topostext.org/place/306070RHype' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.0, 70.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cyprus",
+        "place_type": "island",
+        "topostext_id": "333534LCypr",
+        "place_url": "https://topostext.org/place/333534LCypr",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F281"],
+        "popupContent": "<b>Cyprus</b> <em>(island)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F281' target='_blank'>Hecataeus, F 281 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/333534LCypr' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.0, 35.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rhodes",
+        "place_type": "island",
+        "topostext_id": "283636LRhod",
+        "place_url": "https://topostext.org/place/283636LRhod",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F269"],
+        "popupContent": "<b>Rhodes</b> <em>(island)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F269' target='_blank'>Hecataeus, F 269 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/283636LRhod' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.22, 36.43]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lesbos",
+        "place_type": "island",
+        "topostext_id": "263939LLesb",
+        "place_url": "https://topostext.org/place/263939LLesb",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F214"],
+        "popupContent": "<b>Lesbos</b> <em>(island)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F214' target='_blank'>Hecataeus, F 214 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/263939LLesb' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.25, 39.2]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chios",
+        "place_type": "island",
+        "topostext_id": "260338LChio",
+        "place_url": "https://topostext.org/place/260338LChio",
+        "fragment_count": 1,
+        "fragments": ["https://topostext.org/work/130#F219"],
+        "popupContent": "<b>Chios</b> <em>(island)</em><br><br>Mentioned in 1 fragment(s):<br><a href='https://topostext.org/work/130#F219' target='_blank'>Hecataeus, F 219 (Periegesis, Asia)</a><br><br><a href='https://topostext.org/place/260338LChio' target='_blank'>View place on Topostext</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.14, 38.37]
       }
     }
   ],
@@ -381,8 +1142,17 @@
     "source": "Topostext.org",
     "author": "Hekataios of Miletus",
     "topostext_id": "13921",
-    "total_places": 25,
-    "note": "Sample dataset based on known Hekataios fragments. Fragment references link to Topostext.",
+    "total_places": 71,
+    "place_types": {
+      "city": 37,
+      "region": 25,
+      "island": 7,
+      "river": 3,
+      "sea": 1,
+      "strait": 1,
+      "sanctuary": 1
+    },
+    "note": "Comprehensive dataset of places from Hekataios fragments. Fragment references link to Topostext. Place types include cities, regions, islands, rivers, and other geographic features.",
     "generated": "2026-01-18"
   }
 }

@@ -96,10 +96,16 @@
             border-radius: 50%;
             margin-right: 8px;
             border: 2px solid #000;
+            flex-shrink: 0;
         }
 
-        .hekataios-marker {
-            background-color: #ff7800;
+        .region-label {
+            pointer-events: none;
+            z-index: 500 !important;
+        }
+
+        .region-label div {
+            transform: translate(-50%, -20px);
         }
 
         .leaflet-popup-content-wrapper {
@@ -164,8 +170,28 @@
 
         <div class="legend">
             <div class="legend-item">
-                <div class="legend-symbol hekataios-marker"></div>
-                <span>Place mentioned in fragments</span>
+                <div class="legend-symbol" style="background-color: #ff7800;"></div>
+                <span>Cities</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-symbol" style="background-color: #9b59b6; width: 20px; height: 20px; margin-right: 6px;"></div>
+                <span>Regions (labeled)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-symbol" style="background-color: #3498db;"></div>
+                <span>Islands</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-symbol" style="background-color: #1abc9c;"></div>
+                <span>Rivers</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-symbol" style="background-color: #2980b9;"></div>
+                <span>Seas/Straits</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-symbol" style="background-color: #f39c12;"></div>
+                <span>Sanctuaries</span>
             </div>
         </div>
 
@@ -197,31 +223,105 @@
             minZoom: 3
         }).addTo(map);
 
-        // Function to create custom markers
+        // Function to create custom markers based on place type
         function createMarker(feature, latlng) {
-            return L.circleMarker(latlng, {
-                radius: 7,
-                fillColor: "#ff7800",
-                color: "#000",
+            var placeType = feature.properties.place_type || 'city';
+            var markerOptions = {
                 weight: 2,
-                opacity: 1,
-                fillOpacity: 0.8
-            });
+                opacity: 1
+            };
+
+            // Style based on place type
+            switch(placeType) {
+                case 'region':
+                    // Regions: larger, square-ish, purple
+                    return L.circleMarker(latlng, {
+                        ...markerOptions,
+                        radius: 10,
+                        fillColor: "#9b59b6",
+                        color: "#000",
+                        fillOpacity: 0.6
+                    });
+                case 'island':
+                    // Islands: blue circle
+                    return L.circleMarker(latlng, {
+                        ...markerOptions,
+                        radius: 7,
+                        fillColor: "#3498db",
+                        color: "#000",
+                        fillOpacity: 0.8
+                    });
+                case 'river':
+                    // Rivers: cyan, smaller
+                    return L.circleMarker(latlng, {
+                        ...markerOptions,
+                        radius: 6,
+                        fillColor: "#1abc9c",
+                        color: "#000",
+                        fillOpacity: 0.7
+                    });
+                case 'sea':
+                case 'strait':
+                    // Seas/straits: dark blue
+                    return L.circleMarker(latlng, {
+                        ...markerOptions,
+                        radius: 8,
+                        fillColor: "#2980b9",
+                        color: "#000",
+                        fillOpacity: 0.6
+                    });
+                case 'sanctuary':
+                    // Sanctuaries: gold/yellow
+                    return L.circleMarker(latlng, {
+                        ...markerOptions,
+                        radius: 6,
+                        fillColor: "#f39c12",
+                        color: "#000",
+                        fillOpacity: 0.9
+                    });
+                case 'city':
+                default:
+                    // Cities: orange circle (default)
+                    return L.circleMarker(latlng, {
+                        ...markerOptions,
+                        radius: 7,
+                        fillColor: "#ff7800",
+                        color: "#000",
+                        fillOpacity: 0.8
+                    });
+            }
         }
 
         // Function to handle each feature
         function onEachFeature(feature, layer) {
+            var placeType = feature.properties.place_type || 'city';
+
             if (feature.properties && feature.properties.popupContent) {
                 layer.bindPopup(feature.properties.popupContent, {
                     maxWidth: 300
                 });
             }
 
+            // Add permanent label for regions
+            if (placeType === 'region') {
+                var label = L.marker(layer.getLatLng(), {
+                    icon: L.divIcon({
+                        className: 'region-label',
+                        html: '<div style="color: #9b59b6; font-weight: bold; font-size: 11px; text-shadow: 1px 1px 2px #fff, -1px -1px 2px #fff, 1px -1px 2px #fff, -1px 1px 2px #fff; white-space: nowrap;">' + feature.properties.name + '</div>',
+                        iconSize: null
+                    }),
+                    interactive: false
+                }).addTo(map);
+            }
+
             // Add hover effect
+            var originalRadius = layer.options.radius;
+            var originalOpacity = layer.options.fillOpacity;
+
             layer.on('mouseover', function(e) {
                 var marker = e.target;
                 marker.setStyle({
-                    radius: 10,
+                    radius: originalRadius + 3,
                     fillOpacity: 1
                 });
             });
@@ -229,8 +329,8 @@
             layer.on('mouseout', function(e) {
                 var marker = e.target;
                 marker.setStyle({
-                    radius: 7,
-                    fillOpacity: 0.8
+                    radius: originalRadius,
+                    fillOpacity: originalOpacity
                 });
             });
         }

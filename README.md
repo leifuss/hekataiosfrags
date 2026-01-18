@@ -14,7 +14,14 @@ Hekataios of Miletus was an early Greek historian and geographer who lived durin
 
 - **Interactive Map**: Built with Leaflet.js
 - **Historical Base Layer**: Uses AWMC/CAWM raster tiles optimized for ancient world mapping
-- **Place Markers**: Shows 25+ locations mentioned across Hekataios's fragments
+- **71 Places Mapped**: Comprehensive coverage of Hekataios's geographic knowledge
+- **Place Type Differentiation**:
+  - Cities: Orange circular markers
+  - Regions: Purple markers with permanent labels (Lydia, Scythia, etc.)
+  - Islands: Blue markers (Sicily, Crete, Cyprus, etc.)
+  - Rivers: Cyan markers (Nile, Istros/Danube, Phasis)
+  - Seas/Straits: Dark blue markers
+  - Sanctuaries: Gold markers (Olympia, Delphi)
 - **Fragment Links**: Each popup links directly to the relevant Topostext fragments
 - **Rich Metadata**: View which fragments mention each place
 - **Responsive Design**: Works on desktop and mobile devices
@@ -34,6 +41,18 @@ hekataiosfrags/
 
 - **Topostext.org**: Ancient place gazetteer with coordinates and fragment texts
 - **AWMC/CAWM Tiles**: Ancient World Mapping Center base map tiles hosted by the University of Iowa
+
+## Dataset Statistics
+
+- **71 total places** from Hekataios fragments:
+  - 37 cities (Athens, Sparta, Rome, Babylon, etc.)
+  - 25 regions (Scythia, Egypt, Persia, Germania, etc.)
+  - 7 islands (Sicily, Crete, Cyprus, Rhodes, etc.)
+  - 3 rivers (Nile, Istros/Danube, Phasis)
+  - 1 sea (Pontus Euxinus/Black Sea)
+  - 1 strait (Hellespont)
+  - 1 sanctuary (Olympia)
+- Geographic coverage from **Iberia to India**, **Scythia to Ethiopia**
 
 ## Running Locally
 
