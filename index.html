@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hekataios of Miletus - Fragment Places</title>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin="anonymous"/>
+
+    <!-- MapLibre GL CSS -->
+    <link href="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css" rel="stylesheet" />
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #1a1a1a;
+            color: #e0e0e0;
+        }
+
+        #header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+            position: relative;
+            z-index: 1000;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            margin-top: 5px;
+            font-size: 14px;
+            opacity: 0.8;
+            font-style: italic;
+        }
+
+        #map {
+            height: calc(100vh - 80px);
+            width: 100%;
+        }
+
+        .info-panel {
+            position: absolute;
+            top: 100px;
+            right: 20px;
+            background: rgba(44, 62, 80, 0.95);
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+            z-index: 1000;
+            max-width: 280px;
+            backdrop-filter: blur(10px);
+        }
+
+        .info-panel h3 {
+            margin: 0 0 10px 0;
+            font-size: 16px;
+            font-weight: 500;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+            padding-bottom: 8px;
+        }
+
+        .info-panel p {
+            margin: 8px 0;
+            font-size: 13px;
+            line-height: 1.5;
+        }
+
+        .legend {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin: 8px 0;
+            font-size: 12px;
+        }
+
+        .legend-symbol {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            margin-right: 8px;
+            border: 2px solid #000;
+        }
+
+        .hekataios-marker {
+            background-color: #ff7800;
+        }
+
+        .leaflet-popup-content-wrapper {
+            background: rgba(44, 62, 80, 0.98);
+            color: #e0e0e0;
+            border-radius: 6px;
+        }
+
+        .leaflet-popup-content {
+            margin: 12px;
+            line-height: 1.6;
+        }
+
+        .leaflet-popup-content a {
+            color: #3498db;
+        }
+
+        .leaflet-popup-tip {
+            background: rgba(44, 62, 80, 0.98);
+        }
+
+        .place-count {
+            font-size: 24px;
+            font-weight: bold;
+            color: #3498db;
+            margin: 5px 0;
+        }
+
+        @media (max-width: 768px) {
+            .info-panel {
+                display: none;
+            }
+
+            #header h1 {
+                font-size: 20px;
+            }
+
+            #header .subtitle {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Hekataios of Miletus - Fragment Places</h1>
+        <div class="subtitle">
+            Mapping the world of the first Greek geographer (c. 550 - 476 BCE)
+        </div>
+    </div>
+
+    <div id="map"></div>
+
+    <div class="info-panel">
+        <h3>About this Map</h3>
+        <p>
+            Hekataios of Miletus wrote the <em>Periodos Ges</em> (Circuit of the Earth),
+            one of the earliest Greek geographical works.
+        </p>
+        <p class="place-count" id="place-count">Loading...</p>
+        <p style="margin-top: 0; font-size: 11px; opacity: 0.8;">places mapped</p>
+
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-symbol hekataios-marker"></div>
+                <span>Place mentioned in fragments</span>
+            </div>
+        </div>
+
+        <p style="margin-top: 15px; font-size: 11px; opacity: 0.7;">
+            Base map: OpenHistoricalMap<br>
+            Data source: Topostext.org
+        </p>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin="anonymous"></script>
+
+    <!-- MapLibre GL JS -->
+    <script src="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js"></script>
+
+    <!-- Leaflet MapLibre GL -->
+    <script src="https://unpkg.com/@maplibre/maplibre-gl-leaflet@0.0.20/leaflet-maplibre-gl.js"></script>
+
+    <script>
+        // Initialize the map - centered on the Aegean Sea
+        var map = L.map('map', {
+            center: [38.0, 25.0],
+            zoom: 5,
+            minZoom: 3,
+            maxZoom: 18
+        });
+
+        // Add OpenHistoricalMap using Vector Tiles via MapLibre GL
+        // Note: OHM has moved to vector tiles; raster tiles are deprecated
+        var ohmLayer = L.maplibreGL({
+            style: 'https://www.openhistoricalmap.org/map-styles/main/main.json',
+            attribution: '&copy; <a href="https://www.openhistoricalmap.org/">OpenHistoricalMap</a> contributors'
+        }).addTo(map);
+
+        // Function to create custom markers
+        function createMarker(feature, latlng) {
+            return L.circleMarker(latlng, {
+                radius: 7,
+                fillColor: "#ff7800",
+                color: "#000",
+                weight: 2,
+                opacity: 1,
+                fillOpacity: 0.8
+            });
+        }
+
+        // Function to handle each feature
+        function onEachFeature(feature, layer) {
+            if (feature.properties && feature.properties.popupContent) {
+                layer.bindPopup(feature.properties.popupContent, {
+                    maxWidth: 300
+                });
+            }
+
+            // Add hover effect
+            layer.on('mouseover', function(e) {
+                var marker = e.target;
+                marker.setStyle({
+                    radius: 10,
+                    fillOpacity: 1
+                });
+            });
+
+            layer.on('mouseout', function(e) {
+                var marker = e.target;
+                marker.setStyle({
+                    radius: 7,
+                    fillOpacity: 0.8
+                });
+            });
+        }
+
+        // Load and display the Hekataios places GeoJSON
+        fetch('hekataios_places.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                console.log('Loaded GeoJSON data:', data);
+
+                // Add the GeoJSON layer to the map
+                var placesLayer = L.geoJSON(data, {
+                    pointToLayer: createMarker,
+                    onEachFeature: onEachFeature
+                }).addTo(map);
+
+                // Update the place count
+                var placeCount = data.features.length;
+                document.getElementById('place-count').textContent = placeCount;
+
+                // Fit the map to show all markers
+                if (placeCount > 0) {
+                    map.fitBounds(placesLayer.getBounds(), {
+                        padding: [50, 50]
+                    });
+                }
+
+                console.log(`Loaded ${placeCount} places from Hekataios fragments`);
+            })
+            .catch(err => {
+                console.error("Error loading GeoJSON:", err);
+                document.getElementById('place-count').textContent = '0';
+                alert('Failed to load place data. Please check the console for details.');
+            });
+
+        // Add scale control
+        L.control.scale({
+            imperial: false,
+            metric: true
+        }).addTo(map);
+
+    </script>
+</body>
+</html>

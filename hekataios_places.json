@@ -1,0 +1,203 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Miletus",
+        "source": "Hekataios of Miletus",
+        "popupContent": "<b>Miletus</b><br>Hekataios's birthplace and major Ionian city<br><em>Sample data - run scraper for complete dataset</em>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.2733, 37.5333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ephesus",
+        "source": "Hekataios of Miletus",
+        "popupContent": "<b>Ephesus</b><br>Major Ionian city<br><em>Sample data - run scraper for complete dataset</em>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.3667, 37.95]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Samos",
+        "source": "Hekataios of Miletus",
+        "popupContent": "<b>Samos</b><br>Island of Samos<br><em>Sample data - run scraper for complete dataset</em>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.9833, 37.75]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Athens",
+        "source": "Hekataios of Miletus",
+        "popupContent": "<b>Athens</b><br>Athens<br><em>Sample data - run scraper for complete dataset</em>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.7275, 37.9838]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sparta",
+        "source": "Hekataios of Miletus",
+        "popupContent": "<b>Sparta</b><br>Sparta<br><em>Sample data - run scraper for complete dataset</em>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.4228, 37.0817]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Delphi",
+        "source": "Hekataios of Miletus",
+        "popupContent": "<b>Delphi</b><br>Oracle of Delphi<br><em>Sample data - run scraper for complete dataset</em>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.5011, 38.4825]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Olympia",
+        "source": "Hekataios of Miletus",
+        "popupContent": "<b>Olympia</b><br>Site of the Olympic Games<br><em>Sample data - run scraper for complete dataset</em>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.63, 37.6379]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Troy",
+        "source": "Hekataios of Miletus",
+        "popupContent": "<b>Troy</b><br>Troy/Ilion<br><em>Sample data - run scraper for complete dataset</em>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.2392, 39.9575]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Byzantium",
+        "source": "Hekataios of Miletus",
+        "popupContent": "<b>Byzantium</b><br>Later Constantinople, now Istanbul<br><em>Sample data - run scraper for complete dataset</em>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.9784, 41.0082]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Massalia",
+        "source": "Hekataios of Miletus",
+        "popupContent": "<b>Massalia</b><br>Modern Marseille, Greek colony<br><em>Sample data - run scraper for complete dataset</em>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.3698, 43.2965]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cyrene",
+        "source": "Hekataios of Miletus",
+        "popupContent": "<b>Cyrene</b><br>Greek colony in Libya<br><em>Sample data - run scraper for complete dataset</em>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.8577, 32.8251]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Naucratis",
+        "source": "Hekataios of Miletus",
+        "popupContent": "<b>Naucratis</b><br>Greek trading post in Egypt<br><em>Sample data - run scraper for complete dataset</em>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.5983, 30.8967]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Memphis",
+        "source": "Hekataios of Miletus",
+        "popupContent": "<b>Memphis</b><br>Ancient capital of Egypt<br><em>Sample data - run scraper for complete dataset</em>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.25, 29.85]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Babylon",
+        "source": "Hekataios of Miletus",
+        "popupContent": "<b>Babylon</b><br>Mesopotamian city<br><em>Sample data - run scraper for complete dataset</em>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [44.42, 32.5355]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sardis",
+        "source": "Hekataios of Miletus",
+        "popupContent": "<b>Sardis</b><br>Capital of Lydia<br><em>Sample data - run scraper for complete dataset</em>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.0392, 38.4869]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Persepolis",
+        "source": "Hekataios of Miletus",
+        "popupContent": "<b>Persepolis</b><br>Persian capital<br><em>Sample data - run scraper for complete dataset</em>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.8906, 29.9344]
+      }
+    }
+  ],
+  "metadata": {
+    "note": "Sample data for demonstration. Run extract_places.py to fetch real data from Topostext.",
+    "generated": "2026-01-18",
+    "source": "Hekataios of Miletus fragments",
+    "total_places": 16
+  }
+}
